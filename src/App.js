@@ -3,8 +3,10 @@ import Nav from './components/Nav';
 import About from './components/About';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
+    {
+      name: 'About', description: 'Projects I Have Worked On'
+    },
     {
       name: 'Portfolio', description: 'Projects I Have Worked On'
     },
@@ -26,13 +28,13 @@ function App() {
         currentCategory={currentCategory}
       ></Nav>
       <main>
-          {currentCategory.name == "Portfolio"? (
+          {currentCategory.name === "Portfolio"? (
             <About></About>
           ) : 
-          currentCategory.name == "Contact"? (
+          currentCategory.name === "Contact"? (
             <About></About>
           ) : 
-          currentCategory.name == "Resume"? (
+          currentCategory.name === "Resume"? (
             <About></About>
           ) : (
             <About></About>
