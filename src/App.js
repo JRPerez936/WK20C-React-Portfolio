@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
+import ContactForm from './components/Contact';
 
 function App() {
   const [categories] = useState([
@@ -32,7 +33,7 @@ function App() {
             <About></About>
           ) : 
           currentCategory.name === "Contact"? (
-            <About></About>
+            <ContactForm></ContactForm>
           ) : 
           currentCategory.name === "Resume"? (
             <About></About>
