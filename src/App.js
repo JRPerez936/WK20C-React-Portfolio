@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
       ></Header>
       <main>
           {currentCategory.name === "Portfolio"? (
-            <About></About>
+            <Portfolio></Portfolio>
           ) : 
           currentCategory.name === "Contact"? (
             <ContactForm></ContactForm>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ProjectList = ({ category }) => {
+const ProjectList = () => {
     const [projects] = useState([
       {
         name: 'Spot',
@@ -16,13 +16,13 @@ const ProjectList = ({ category }) => {
       },
       {
         name: 'Tech Blog',
-        category: 'led_wall.jpeg',
+        category: 'techBlog.PNG',
         github: 'https://github.com/JRPerez936/WK14-Tech-Blog',
         deploy: 'https://desolate-brook-02162.herokuapp.com/#'
       },
       {
         name: 'Weather Dashboard',
-        category: 'led_wall.jpeg',
+        category: 'weather.PNG',
         github: 'https://github.com/JRPerez936/WK6C-Weather-Dashboard',
         deploy: 'https://jrperez936.github.io/WK6C-Weather-Dashboard/'
       },
@@ -34,18 +34,21 @@ const ProjectList = ({ category }) => {
       }
     ]);
   
-    const currentProjects = projects.filter((project) => project.category === category);
+    
     return (
       <div>
         <div className="flex-row">
-          {currentProjects.map((image, i) => (
-            <img
-            src={require(`../../assets/images/projectpics/${category}`)}
-            alt={image.name}
-            className="img-thumbnail mx-1"
-            onClick= {image.github}
-            key={image.name}
-          />
+          {projects.map((image, i) => (
+            <div>
+                <img
+                    src={require(`../../assets/images/projectpics/${image.category}`)}
+                    alt={image.name}
+                    className="img-thumbnail mx-1"
+                    key={image.name}
+                />
+                <a href={image.github}><button>Github</button></a>
+                <a href={image.deploy}><button>Website</button></a>
+            </div>
           ))}
         </div>
       </div>
