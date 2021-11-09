@@ -8,10 +8,10 @@ main {
   --primary: #8c54ff;
   --secondary: #F3A847;
   --tertiary: #B12704;
-  --light: #fafafa;
+  --grey: #4f5052;
   --dark: #000000;
-  --brown: #46230f;
-  --dblue: #223480;
+  --dbeige: #9e7458;
+  --lbeige: #cfbfa6;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -36,8 +36,8 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dblue);
-  color: var(--light);
+  background: var(--lbeige);
+  color: var(--grey);
   font-family: 'Poiret One', cursive;
 
 }
@@ -94,11 +94,11 @@ a:hover {
 }
 
 header {
-  background: var(--brown);
+  background: var(--dbeige);
 }
 
 header a {
-  color: var(--light);
+  color: var(--grey);
 }
 
 button {
