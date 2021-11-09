@@ -12,7 +12,7 @@ function Navigation(props) {
   }, [currentCategory]);
 
   return (
-    <header className="flex-row px-1">
+    <header className="flex-row px-1 space-between">
       <h2>
         <a data-testid="link" href="/">
            Justin Perez

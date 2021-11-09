@@ -46,6 +46,7 @@ const ProjectList = () => {
                     className="img-thumbnail mx-1"
                     key={image.name}
                 />
+                <h2>{image.name}</h2>
                 <a href={image.github}><button>Github</button></a>
                 <a href={image.deploy}><button>Website</button></a>
             </div>
