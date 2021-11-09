@@ -30,6 +30,10 @@
 
   ## Usage
   Following the installation steps will allow users to visit the React Portfolio website as seen here
+  ![portfolio page](https://user-images.githubusercontent.com/85633985/141000915-b04f9396-eeff-4249-ab65-b64b15374e9d.PNG)
+  ![portfolio page 2](https://user-images.githubusercontent.com/85633985/141000917-2ff22692-982f-46d0-b30e-2fc2f57677b7.PNG)
+  ![portfolio page 3](https://user-images.githubusercontent.com/85633985/141000913-11b8d0cc-31cf-4169-af72-1b05bd557608.PNG)
+  ![portfolio page 4](https://user-images.githubusercontent.com/85633985/141000914-94420f44-88b2-4ac1-8fda-491f5210c55b.PNG)
   
   You can also view the deployed website at this link:
   https://jrperez936.github.io/wk20c-react-portfolio/
