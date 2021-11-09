@@ -6,10 +6,14 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
     {
-      name: 'Portfolio',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
+      name: 'Portfolio', description: 'Projects I Have Worked On'
     },
-    { name: 'Resume', description: 'Delicious delicacies' },
+    { 
+      name: 'Contact', description: 'Reach Out Here' 
+    },
+    { 
+      name: 'Resume', description: 'Work & Coding Experience' 
+    },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -20,11 +24,19 @@ function App() {
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
       ></Nav>
       <main>
-          <About></About>
+          {currentCategory.name == "Portfolio"? (
+            <About></About>
+          ) : 
+          currentCategory.name == "Contact"? (
+            <About></About>
+          ) : 
+          currentCategory.name == "Resume"? (
+            <About></About>
+          ) : (
+            <About></About>
+          )}
       </main>
     </div>
   );
