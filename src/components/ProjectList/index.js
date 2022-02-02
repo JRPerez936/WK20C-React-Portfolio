@@ -15,12 +15,6 @@ const ProjectList = () => {
         deploy: 'https://pfizzz.github.io/project-1/'
       },
       {
-        name: 'Only-Bans',
-        category: 'OnlyBans.png',
-        github: 'https://github.com/zacktmiller92/only-bans',
-        deploy: 'https://only-bans.herokuapp.com/'
-      },
-      {
         name: 'Tech Blog',
         category: 'techBlog.PNG',
         github: 'https://github.com/JRPerez936/WK14-Tech-Blog',
