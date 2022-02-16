@@ -5,7 +5,7 @@ function Resume() {
         <div>
             <section>
                 <h2>My Resume:</h2>
-                <a href="https://docs.google.com/document/d/1r0SKZPPk2jy4WgXpf7kZN7-7iyJwTJFq/edit?usp=sharing&ouid=109879314352627142366&rtpof=true&sd=true"><button>Download</button></a>
+                <a href="https://docs.google.com/document/d/1F33xOluDqNLEFD_SStkcGQ9Sw3PPbikf/edit?usp=sharing&ouid=113144781945645951195&rtpof=true&sd=true"><button>Download</button></a>
             </section>
             <section>
                 <h3>Proficiencies:</h3>
