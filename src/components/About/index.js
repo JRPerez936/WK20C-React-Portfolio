@@ -9,7 +9,7 @@ function About() {
       <img src={coverImage} className="my-2" style={{ width: "15%" }} alt="perez_j" />
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+        Hi, my name is Justin Perez. I am a Full Stack Web Developer, and a Junior at Rutgers University studying Information Technology and Computer Science. I've been described as efficient and hardworking, and am constantly improving my skills in communication and problem-solving. I actively strive towards discovering and learning to use cutting-edge technology and software that may become useful in workplace enviornments.
       </p>
       </div>
     </section>
